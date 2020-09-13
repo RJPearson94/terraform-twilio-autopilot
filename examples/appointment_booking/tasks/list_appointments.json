@@ -1,0 +1,52 @@
+{
+  "name": "list_appointments",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Your next appointment is on July 1st at 4.30 pm. I can always help you reschedule or cancel it."
+        },
+        {
+          "listen": {
+            "tasks": ["cancel_appointments", "change_appointments", "goodbye"]
+          }
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "tagged_text": "When am I due to come in next?"
+    },
+    {
+      "tagged_text": "When is my next appointment"
+    },
+    {
+      "tagged_text": "Next appointment?"
+    },
+    {
+      "tagged_text": "what's my upcoming appointment"
+    },
+    {
+      "tagged_text": "manage my appointment"
+    },
+    {
+      "tagged_text": "When is my next appointment?"
+    },
+    {
+      "tagged_text": "When do I come in next?"
+    },
+    {
+      "tagged_text": "When is my appointment"
+    },
+    {
+      "tagged_text": "what time is my appointment"
+    },
+    {
+      "tagged_text": "when do I come in?"
+    },
+    {
+      "tagged_text": "tell me when I'm scheduled for"
+    }
+  ]
+}

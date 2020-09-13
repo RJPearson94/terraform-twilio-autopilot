@@ -1,0 +1,9 @@
+{
+  "defaults": {
+    "assistant_initiation": "task://greeting",
+    "fallback": "task://fallback",
+    "collect": {
+      "validate_on_failure": "task://collect_fallback"
+    }
+  }
+}

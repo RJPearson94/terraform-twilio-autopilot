@@ -1,0 +1,12 @@
+{
+  "name": "complete_booking",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Thanks! I've booked your appointment. See you soon :)"
+        }
+      ]
+    }
+  }
+}

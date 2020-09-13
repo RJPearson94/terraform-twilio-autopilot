@@ -1,0 +1,119 @@
+{
+  "name": "book_appointments",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Okay lets get you a new appointment. I just need you to answer a few questions."
+        },
+        {
+          "collect": {
+            "name": "schedule_appt",
+            "questions": [
+              {
+                "question": "Please tell me the date you want to come in.",
+                "name": "appt_date",
+                "type": "Twilio.DATE"
+              },
+              {
+                "question": "Thanks, and what time?",
+                "name": "appt_time",
+                "type": "Twilio.TIME"
+              },
+              {
+                "question": "Awesome, last question. What is the best number to reach you on?",
+                "name": "appt_phone_number",
+                "type": "Twilio.PHONE_NUMBER"
+              }
+            ],
+            "on_complete": {
+              "redirect": "task://complete_booking"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    {
+      "name": "ApptDate",
+      "type": {
+        "built_in": "Twilio.DATE"
+      }
+    },
+    {
+      "name": "ApptTime",
+      "type": {
+        "built_in": "Twilio.TIME"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "tagged_text": "Can I make a new appointment"
+    },
+    {
+      "tagged_text": "Get me a new appointment please."
+    },
+    {
+      "tagged_text": "Can I get a new appointment?"
+    },
+    {
+      "tagged_text": "New appointment please"
+    },
+    {
+      "tagged_text": "I want to make an appointment"
+    },
+    {
+      "tagged_text": "Appointment"
+    },
+    {
+      "tagged_text": "New appointment"
+    },
+    {
+      "tagged_text": "get me a new appointment"
+    },
+    {
+      "tagged_text": "make appointment"
+    },
+    {
+      "tagged_text": "I'd like to make a new appointment"
+    },
+    {
+      "tagged_text": "I want a new appointment"
+    },
+    {
+      "tagged_text": "Can I get a new appointment at {ApptTime} on {ApptDate}?"
+    },
+    {
+      "tagged_text": "I'd like to book an appointment on {ApptDate} at {ApptTime}"
+    },
+    {
+      "tagged_text": "I want an appointment at {ApptTime} on {ApptDate}"
+    },
+    {
+      "tagged_text": "Can I get an appointment"
+    },
+    {
+      "tagged_text": "Can I book a new appointment please?"
+    },
+    {
+      "tagged_text": "Can I have a new appointment at {ApptTime} on {ApptDate}?"
+    },
+    {
+      "tagged_text": "book appointment for {ApptDate}"
+    },
+    {
+      "tagged_text": "book appointment for {ApptTime} on {ApptDate}"
+    },
+    {
+      "tagged_text": "Can I get a new appointment on {ApptDate}?"
+    },
+    {
+      "tagged_text": "book appointment for {ApptTime}"
+    },
+    {
+      "tagged_text": "book an appointment for {ApptTime}"
+    }
+  ]
+}

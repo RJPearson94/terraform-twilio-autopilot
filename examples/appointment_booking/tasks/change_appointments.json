@@ -1,0 +1,49 @@
+{
+  "name": "change_appointments",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Okay I've changed your appointment to July 3rd at 4.30 pm. What else can I help you with?"
+        },
+        {
+          "listen": {
+            "tasks": ["cancel_appointments", "list_appointments", "goodbye"]
+          }
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "tagged_text": "Change appointment"
+    },
+    {
+      "tagged_text": "Change my appointment"
+    },
+    {
+      "tagged_text": "modify appt"
+    },
+    {
+      "tagged_text": "I need to change my appointment"
+    },
+    {
+      "tagged_text": "Please help me change my appointment"
+    },
+    {
+      "tagged_text": "modify appointment"
+    },
+    {
+      "tagged_text": "I can't make it anymore, can you help me change my appointment?"
+    },
+    {
+      "tagged_text": "move my appointment"
+    },
+    {
+      "tagged_text": "move appointment"
+    },
+    {
+      "tagged_text": "change appt"
+    }
+  ]
+}

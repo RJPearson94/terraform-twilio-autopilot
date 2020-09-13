@@ -1,0 +1,15 @@
+{
+  "name": "collect_fallback",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Looks like you having trouble. Apologies for that. Let's start again, how can I help you today?"
+        },
+        {
+          "listen": true
+        }
+      ]
+    }
+  }
+}

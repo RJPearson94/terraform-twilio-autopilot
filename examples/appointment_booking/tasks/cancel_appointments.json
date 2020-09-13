@@ -1,0 +1,49 @@
+{
+  "name": "cancel_appointments",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Okay I've cancelled your appointment. What else can I help you with?"
+        },
+        {
+          "listen": {
+            "tasks": ["book_appointments", "list_appointments", "goodbye"]
+          }
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "tagged_text": "Can you help me cancel my appointment?"
+    },
+    {
+      "tagged_text": "I need to cancel my appointment please"
+    },
+    {
+      "tagged_text": "Cancel appointment"
+    },
+    {
+      "tagged_text": "need to cancel"
+    },
+    {
+      "tagged_text": "I need to cancel my session"
+    },
+    {
+      "tagged_text": "I want to cancel my appointment"
+    },
+    {
+      "tagged_text": "cancel appt"
+    },
+    {
+      "tagged_text": "can't make my appointment"
+    },
+    {
+      "tagged_text": "can't come in"
+    },
+    {
+      "tagged_text": "Please cancel my appointment?"
+    }
+  ]
+}

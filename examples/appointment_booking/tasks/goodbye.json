@@ -1,0 +1,62 @@
+{
+  "name": "goodbye",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Ok, I'll be here when you need me."
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "tagged_text": "good bye"
+    },
+    {
+      "tagged_text": "goodnight"
+    },
+    {
+      "tagged_text": "that's all"
+    },
+    {
+      "tagged_text": "goodbye"
+    },
+    {
+      "tagged_text": "see ya"
+    },
+    {
+      "tagged_text": "bye bye"
+    },
+    {
+      "tagged_text": "go away"
+    },
+    {
+      "tagged_text": "stop talking"
+    },
+    {
+      "tagged_text": "cancel"
+    },
+    {
+      "tagged_text": "that's all thank you"
+    },
+    {
+      "tagged_text": "no thanks"
+    },
+    {
+      "tagged_text": "stop"
+    },
+    {
+      "tagged_text": "no"
+    },
+    {
+      "tagged_text": "that's all for today"
+    },
+    {
+      "tagged_text": "that would be all"
+    },
+    {
+      "tagged_text": "that would be all thanks"
+    }
+  ]
+}

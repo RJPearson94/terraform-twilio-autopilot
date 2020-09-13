@@ -1,0 +1,19 @@
+# IDE's
+.idea
+.vscode
+*.iml
+
+# Terraform
+*.backup
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+crash.log
+
+# Misc
+.history
+.DS_Store
+
+# Testing
+vendor

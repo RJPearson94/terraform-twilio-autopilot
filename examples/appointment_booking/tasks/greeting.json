@@ -1,0 +1,56 @@
+{
+  "name": "greeting",
+  "actions": {
+    "json": {
+      "actions": [
+        {
+          "say": "Thanks for contacting our store! I can help you book a new appointment, modify an existing one or tell you about upcoming appointments. How can I help you today?"
+        },
+        {
+          "listen": true
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "tagged_text": "whatsup"
+    },
+    {
+      "tagged_text": "sup"
+    },
+    {
+      "tagged_text": "hi there"
+    },
+    {
+      "tagged_text": "what do you do"
+    },
+    {
+      "tagged_text": "what can you do"
+    },
+    {
+      "tagged_text": "yo"
+    },
+    {
+      "tagged_text": "hey"
+    },
+    {
+      "tagged_text": "what's up"
+    },
+    {
+      "tagged_text": "hello"
+    },
+    {
+      "tagged_text": "heya"
+    },
+    {
+      "tagged_text": "hi"
+    },
+    {
+      "tagged_text": "good afternoon"
+    },
+    {
+      "tagged_text": "good morning"
+    }
+  ]
+}
