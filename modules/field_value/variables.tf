@@ -1,31 +1,31 @@
 variable "assistant_sid" {
-  description = ""
+  description = "The SID of the Autopilot assistant"
   type        = string
 }
 
 variable "field_type_sid" {
-  description = ""
+  description = "The SID of the Autopilot field type"
   type        = string
 }
 
 variable "language_override" {
-  description = ""
+  description = "The language to be used instead of the default"
   type        = string
   default     = null
 }
 
 variable "default_language" {
-  description = ""
+  description = "The default language to use"
   type        = string
 }
 
 variable "value" {
-  description = ""
+  description = "The value of the field"
   type        = string
 }
 
 variable "synonyms" {
-  description = ""
+  description = "Synonym field values"
   type = list(object({
     language_override = string
     value             = string

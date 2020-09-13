@@ -17,14 +17,14 @@ This module creates a field value and 0 or more synonym field values
 
 ## Inputs
 
-| Name              | Description | Type                                                                               | Default | Required |
-| ----------------- | ----------- | ---------------------------------------------------------------------------------- | ------- | :------: |
-| assistant_sid     | n/a         | `string`                                                                           | n/a     |   yes    |
-| default_language  | n/a         | `string`                                                                           | n/a     |   yes    |
-| field_type_sid    | n/a         | `string`                                                                           | n/a     |   yes    |
-| language_override | n/a         | `string`                                                                           | `null`  |    no    |
-| synonyms          | n/a         | <pre>list(object({<br> language_override = string<br> value = string<br> }))</pre> | `[]`    |    no    |
-| value             | n/a         | `string`                                                                           | n/a     |   yes    |
+| Name              | Description                                    | Type                                                                               | Default | Required |
+| ----------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------- | ------- | :------: |
+| assistant_sid     | The SID of the Autopilot assistant             | `string`                                                                           | n/a     |   yes    |
+| default_language  | The default language to use                    | `string`                                                                           | n/a     |   yes    |
+| field_type_sid    | The SID of the Autopilot field type            | `string`                                                                           | n/a     |   yes    |
+| language_override | The language to be used instead of the default | `string`                                                                           | `null`  |    no    |
+| synonyms          | Synonym field values                           | <pre>list(object({<br> language_override = string<br> value = string<br> }))</pre> | `[]`    |    no    |
+| value             | The value of the field                         | `string`                                                                           | n/a     |   yes    |
 
 ## Outputs
 

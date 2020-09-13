@@ -42,7 +42,7 @@ variable "callback" {
 }
 
 variable "polling" {
-  description = ""
+  description = "The polling config for the model build"
   type = object({
     enabled      = bool
     max_attempts = number
