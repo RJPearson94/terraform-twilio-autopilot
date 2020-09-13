@@ -22,6 +22,8 @@ The following resources can be managed via the module:
 
 !> **Disclaimer**: This project is not an official Twilio project and is not supported or endorsed by Twilio in any way. It is maintained in [my](https://github.com/RJPearson94) free time.
 
+**NOTE:** The default branch for this project is called `main`
+
 ## Examples
 
 Examples of how the Terraform module can be used can be found [here](./examples)
