@@ -3,7 +3,7 @@ name: Release Terraform Module
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
@@ -16,7 +16,7 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         id: semantic
         with:
-          branch: master
+          branch: main
           extra_plugins: |
             @semantic-release/git@9.0.0
             @semantic-release/github@7.1.1
