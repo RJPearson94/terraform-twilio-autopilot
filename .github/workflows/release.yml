@@ -22,4 +22,4 @@ jobs:
             @semantic-release/github@7.1.1
             @semantic-release/changelog@5.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MAINTAINER_GITHUB_ACCESS_TOKEN }}
