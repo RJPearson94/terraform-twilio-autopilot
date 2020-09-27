@@ -28,6 +28,6 @@ No input.
 
 ## Outputs
 
-| Name          | Description |
-| ------------- | ----------- |
-| assistant_sid | n/a         |
+| Name          | Description                        |
+| ------------- | ---------------------------------- |
+| assistant_sid | The SID of the Autopilot assistant |

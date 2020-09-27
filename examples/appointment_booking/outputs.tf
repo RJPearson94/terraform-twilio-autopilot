@@ -1,3 +1,4 @@
 output "assistant_sid" {
-  value = module.appointment_booking.assistant.sid
+  description = "The SID of the Autopilot assistant"
+  value       = module.appointment_booking.assistant.sid
 }
