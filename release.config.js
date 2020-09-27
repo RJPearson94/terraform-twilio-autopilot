@@ -12,7 +12,7 @@ module.exports = {
           { type: "feat", release: true },
           { type: "fix", release: true },
           { type: "refactor", release: true },
-          { type: "docs", release: true },
+          { type: "docs", release: "patch" },
           { type: "tests", release: false },
         ],
       },
