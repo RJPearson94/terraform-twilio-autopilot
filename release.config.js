@@ -17,13 +17,6 @@ module.exports = {
         ],
       },
     ],
-    [
-      "@semantic-release/changelog",
-      {
-        changelogTitle:
-          "All notable changes to this module will be documented in this file.",
-      },
-    ],
     "@semantic-release/git",
     "@semantic-release/github",
   ],
