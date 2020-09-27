@@ -11,7 +11,7 @@
         {"type": "feat", "release": true},
         {"type": "fix", "release": true},
         {"type": "refactor", "release": true},
-        {"type": "docs", "release": false},
+        {"type": "docs", "release": true},
         {"type": "tests", "release": false}
       ]
     }],
