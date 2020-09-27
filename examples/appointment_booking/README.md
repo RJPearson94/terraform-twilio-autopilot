@@ -1,6 +1,6 @@
 # Appointment booking Autopilot bot
 
-This example creates an appointment booking autopilot bot.
+This example creates an appointment booking Autopilot bot.
 The tasks, samples, stylesheet and defaults are copied from the `Appointment Scheduling` pre-trained template that Twilio supply in the console.
 
 To improve the readability of the example the tasks JSON can be found in the task folder. The [javascript provider](https://registry.terraform.io/providers/apparentlymart/javascript/latest) is used to translate the task JSON and set any necessary defaults that are required by the Terraform module.
