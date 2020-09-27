@@ -1,10 +1,10 @@
 # terraform-twilio-autopilot
 
-This is a terraform module for managing an autopilot assistant.
+This is a terraform module for managing an Autopilot assistant.
 
 !> This module will destroy the model build before creating a new one
 
-This module uses the Community Twilio Terraform Provider (also maintained by the module [author](https://github.com/RJPearson94))
+This module uses the community Twilio Terraform Provider (also maintained by the module [author](https://github.com/RJPearson94))
 
 - [Terraform Registry](https://registry.terraform.io/providers/RJPearson94/twilio/latest)
 - [Github](https://github.com/RJPearson94/terraform-provider-twilio)
@@ -20,7 +20,7 @@ The following resources can be managed via the module:
 - [Task Samples](https://registry.terraform.io/providers/RJPearson94/twilio/latest/docs/resources/autopilot_task_sample)
 - [Webhooks](https://registry.terraform.io/providers/RJPearson94/twilio/latest/docs/resources/autopilot_webhook)
 
-!> **Disclaimer**: This project is not an official Twilio project and is not supported or endorsed by Twilio in any way. It is maintained in [my](https://github.com/RJPearson94) free time.
+~> **Disclaimer:** This project is not an official Twilio project and is not supported or endorsed by Twilio in any way. It is maintained in [my](https://github.com/RJPearson94) free time.
 
 **NOTE:** The default branch for this project is called `main`
 
