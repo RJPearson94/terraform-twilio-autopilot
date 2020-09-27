@@ -3,20 +3,14 @@ module.exports = {
   tagFormat: "v${version}",
   branches: ["main"],
   plugins: [
-    "@semantic-release/commit-analyzer",
     [
-      "@semantic-release/release-notes-generator",
+      "@semantic-release/commit-analyzer",
       {
         preset: "angular",
-        releaseRules: [
-          { type: "feat", release: true },
-          { type: "fix", release: true },
-          { type: "refactor", release: true },
-          { type: "docs", release: "patch" },
-          { type: "tests", release: false },
-        ],
+        releaseRules: [{ type: "docs", release: "patch" }],
       },
     ],
+    "@semantic-release/release-notes-generator",
     "@semantic-release/git",
     "@semantic-release/github",
   ],
