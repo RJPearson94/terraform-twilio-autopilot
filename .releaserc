@@ -1,11 +1,11 @@
 {
-  'repositoryUrl': 'https://github.com/RJPearson94/terraform-twilio-autopilot',
-  'tagFormat': 'v${version}',
-  'branch': 'main',
-  'plugins': [
-    '@semantic-release/commit-analyzer',
+  "repositoryUrl": "https://github.com/RJPearson94/terraform-twilio-autopilot",
+  "tagFormat": "v${version}",
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
     [
-    '@semantic-release/release-notes-generator',{
+    "@semantic-release/release-notes-generator",{
       "preset": "angular",
       "releaseRules": [
         {"type": "feat", "release": true},
@@ -16,11 +16,11 @@
       ]
     }],
     [
-      '@semantic-release/changelog', {
-        'changelogTitle': 'All notable changes to this module will be documented in this file.'
+      "@semantic-release/changelog", {
+        "changelogTitle": "All notable changes to this module will be documented in this file."
       }
     ],
-    '@semantic-release/git',
-    '@semantic-release/github',
+    "@semantic-release/git",
+    "@semantic-release/github",
   ]
 }
