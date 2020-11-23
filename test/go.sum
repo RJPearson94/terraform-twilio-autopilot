@@ -53,8 +53,8 @@ github.com/PuerkitoBio/purell v1.0.0/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbt
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=
 github.com/PuerkitoBio/urlesc v0.0.0-20160726150825-5bd2802263f2/go.mod h1:uGdkoq3SwY9Y+13GIhn11/XLaGBb4BfwItxLd5jeuXE=
 github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578/go.mod h1:uGdkoq3SwY9Y+13GIhn11/XLaGBb4BfwItxLd5jeuXE=
-github.com/RJPearson94/twilio-sdk-go v0.5.0 h1:TZ3e2nysQnO6Rs2g473ayqJ9g2kXX+P0dEvVqhtEOzw=
-github.com/RJPearson94/twilio-sdk-go v0.5.0/go.mod h1:FohltP65SjYuKsK3e+SKxjQLHQxQKpIgpB/RFXyeHlc=
+github.com/RJPearson94/twilio-sdk-go v0.6.0 h1:i/CLwmvPrbb5C4c8Pv1qxmr8TXQ8ZzMsw+qN4lMqMHE=
+github.com/RJPearson94/twilio-sdk-go v0.6.0/go.mod h1:FohltP65SjYuKsK3e+SKxjQLHQxQKpIgpB/RFXyeHlc=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
