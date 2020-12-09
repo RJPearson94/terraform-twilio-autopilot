@@ -7,5 +7,5 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/gruntwork-io/terratest v0.30.10
 	github.com/onsi/ginkgo v1.14.2
-	github.com/onsi/gomega v1.10.3
+	github.com/onsi/gomega v1.10.4
 )
