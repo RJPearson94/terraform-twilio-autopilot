@@ -4,10 +4,10 @@ This module creates a task field and optionally creates a field type and field v
 
 ## Requirements
 
-| Name      | Version         |
-| --------- | --------------- |
-| terraform | >= 0.13, < 0.14 |
-| twilio    | >= 0.1.0        |
+| Name      | Version  |
+| --------- | ---------|
+| terraform | >= 0.13  |
+| twilio    | >= 0.1.0 |
 
 ## Providers
 

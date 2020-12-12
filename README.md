@@ -30,10 +30,10 @@ Examples of how the Terraform module can be used can be found [here](./examples)
 
 ## Requirements
 
-| Name      | Version         |
-| --------- | --------------- |
-| terraform | >= 0.13, < 0.14 |
-| twilio    | >= 0.2.0        |
+| Name      | Version  |
+| --------- | ---------|
+| terraform | >= 0.13  |
+| twilio    | >= 0.2.0 |
 
 ## Providers
 

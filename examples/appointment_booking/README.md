@@ -9,11 +9,11 @@ To prevent name clashes a random 16 character string is appended to the end of t
 
 ## Requirements
 
-| Name       | Version         |
-| ---------- | --------------- |
-| terraform  | >= 0.13, < 0.14 |
-| javascript | >= 0.0.1        |
-| twilio     | >= 0.2.0        |
+| Name       | Version  |
+| ---------- | ---------|
+| terraform  | >= 0.13  |
+| javascript | >= 0.0.1 |
+| twilio     | >= 0.2.0 |
 
 ## Providers
 

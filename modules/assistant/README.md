@@ -4,10 +4,10 @@ This module creates an assistant and 0 or more webhooks
 
 ## Requirements
 
-| Name      | Version         |
-| --------- | --------------- |
-| terraform | >= 0.13, < 0.14 |
-| twilio    | >= 0.1.0        |
+| Name      | Version  |
+| --------- | ---------|
+| terraform | >= 0.13  |
+| twilio    | >= 0.1.0 |
 
 ## Providers
 

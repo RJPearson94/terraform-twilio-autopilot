@@ -4,10 +4,10 @@ This module creates a task with 0 or more task fields and 0 or more task samples
 
 ## Requirements
 
-| Name      | Version         |
-| --------- | --------------- |
-| terraform | >= 0.13, < 0.14 |
-| twilio    | >= 0.2.1        |
+| Name      | Version  |
+| --------- | ---------|
+| terraform | >= 0.13  |
+| twilio    | >= 0.2.1 |
 
 ## Providers
 

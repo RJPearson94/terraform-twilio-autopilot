@@ -4,10 +4,10 @@ This module creates a field value and 0 or more synonym field values
 
 ## Requirements
 
-| Name      | Version         |
-| --------- | --------------- |
-| terraform | >= 0.13, < 0.14 |
-| twilio    | >= 0.1.0        |
+| Name      | Version  |
+| --------- | ---------|
+| terraform | >= 0.13  |
+| twilio    | >= 0.1.0 |
 
 ## Providers
 
