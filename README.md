@@ -2,8 +2,6 @@
 
 This is a terraform module for managing an Autopilot assistant.
 
-!> This module will destroy the model build before creating a new one
-
 This module uses the community Twilio Terraform Provider (also maintained by the module [author](https://github.com/RJPearson94))
 
 - [Terraform Registry](https://registry.terraform.io/providers/RJPearson94/twilio/latest)
@@ -31,7 +29,7 @@ Examples of how the Terraform module can be used can be found [here](./examples)
 ## Requirements
 
 | Name      | Version  |
-| --------- | ---------|
+| --------- | -------- |
 | terraform | >= 0.13  |
 | twilio    | >= 0.2.0 |
 

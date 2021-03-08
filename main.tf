@@ -41,4 +41,8 @@ resource "twilio_autopilot_model_build" "model_build" {
     max_attempts = var.polling.max_attempts
     delay_in_ms  = var.polling.delay_in_ms
   }
+
+  lifecycle {
+    create_before_destroy = true
+  }
 }
