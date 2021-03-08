@@ -30,7 +30,7 @@ Examples of how the Terraform module can be used can be found [here](./examples)
 
 | Name      | Version  |
 | --------- | -------- |
-| terraform | >= 0.13  |
+| terraform | >= 0.14  |
 | twilio    | >= 0.2.0 |
 
 ## Providers
@@ -38,6 +38,19 @@ Examples of how the Terraform module can be used can be found [here](./examples)
 | Name   | Version  |
 | ------ | -------- |
 | twilio | >= 0.2.0 |
+
+## Modules
+
+| Name                | Source              | Version |
+| ------------------- | ------------------- | ------- |
+| autopilot_assistant | ./modules/assistant |         |
+| autopilot_tasks     | ./modules/task      |         |
+
+## Resources
+
+| Name                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| [twilio_autopilot_model_build](https://registry.terraform.io/providers/RJPearson94/twilio/0.2.0/docs/resources/autopilot_model_build) |
 
 ## Inputs
 
@@ -63,6 +76,6 @@ Examples of how the Terraform module can be used can be found [here](./examples)
 | tasks       | The generated tasks                 |
 | webhooks    | The generated Autopilot webhooks    |
 
-## Modules
+## Sub Modules
 
 This module utilises additional sub-modules which can be seen [here](./modules)

@@ -5,7 +5,7 @@ This module creates a task field and optionally creates a field type and field v
 ## Requirements
 
 | Name      | Version  |
-| --------- | ---------|
+| --------- | -------- |
 | terraform | >= 0.13  |
 | twilio    | >= 0.1.0 |
 
@@ -15,12 +15,25 @@ This module creates a task field and optionally creates a field type and field v
 | ------ | -------- |
 | twilio | >= 0.1.0 |
 
+## Modules
+
+| Name         | Source         | Version |
+| ------------ | -------------- | ------- |
+| field_values | ../field_value |         |
+
+## Resources
+
+| Name                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------------------- |
+| [twilio_autopilot_field_type](https://registry.terraform.io/providers/RJPearson94/twilio/0.1.0/docs/resources/autopilot_field_type) |
+| [twilio_autopilot_task_field](https://registry.terraform.io/providers/RJPearson94/twilio/0.1.0/docs/resources/autopilot_task_field) |
+
 ## Inputs
 
 | Name             | Description                                     | Type                                                                                                                                                                                                                         | Default | Required |
 | ---------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | :------: |
 | assistant_sid    | The SID of the Autopilot assistant              | `string`                                                                                                                                                                                                                     | n/a     |   yes    |
-| built_in\type    | A built in field type                           | `string`                                                                                                                                                                                                                     | n/a     |   yes    |
+| built_in_type    | A built in field type                           | `string`                                                                                                                                                                                                                     | n/a     |   yes    |
 | custom_type      | A custom field type                             | <pre>object({<br> name = string<br> values = list(object({<br> language_override = string<br> value = string<br><br> synonyms = list(object({<br> language_override = string<br> value = string<br> }))<br> }))<br> })</pre> | `null`  |    no    |
 | default_language | The default language to use for the task fields | `string`                                                                                                                                                                                                                     | n/a     |   yes    |
 | name             | The name of the Autopilot task field            | `string`                                                                                                                                                                                                                     | n/a     |   yes    |
@@ -33,3 +46,4 @@ This module creates a task field and optionally creates a field type and field v
 | change_hash  | Computed hash which can be used to determine if the resources have changed |
 | field_type   | The generated Autopilot field type                                         |
 | field_values | The generated field values                                                 |
+| task_field   | The generated Autopilot task field                                         |

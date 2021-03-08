@@ -5,7 +5,7 @@ This module creates a field value and 0 or more synonym field values
 ## Requirements
 
 | Name      | Version  |
-| --------- | ---------|
+| --------- | -------- |
 | terraform | >= 0.13  |
 | twilio    | >= 0.1.0 |
 
@@ -14,6 +14,16 @@ This module creates a field value and 0 or more synonym field values
 | Name   | Version  |
 | ------ | -------- |
 | twilio | >= 0.1.0 |
+
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| [twilio_autopilot_field_value](https://registry.terraform.io/providers/RJPearson94/twilio/0.1.0/docs/resources/autopilot_field_value) |
 
 ## Inputs
 

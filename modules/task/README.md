@@ -5,7 +5,7 @@ This module creates a task with 0 or more task fields and 0 or more task samples
 ## Requirements
 
 | Name      | Version  |
-| --------- | ---------|
+| --------- | -------- |
 | terraform | >= 0.13  |
 | twilio    | >= 0.2.1 |
 
@@ -14,6 +14,19 @@ This module creates a task with 0 or more task fields and 0 or more task samples
 | Name   | Version  |
 | ------ | -------- |
 | twilio | >= 0.2.1 |
+
+## Modules
+
+| Name        | Source        | Version |
+| ----------- | ------------- | ------- |
+| task_fields | ../task_field |         |
+
+## Resources
+
+| Name                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| [twilio_autopilot_task](https://registry.terraform.io/providers/RJPearson94/twilio/0.2.1/docs/resources/autopilot_task)               |
+| [twilio_autopilot_task_sample](https://registry.terraform.io/providers/RJPearson94/twilio/0.2.1/docs/resources/autopilot_task_sample) |
 
 ## Inputs
 

@@ -5,7 +5,7 @@ This module creates an assistant and 0 or more webhooks
 ## Requirements
 
 | Name      | Version  |
-| --------- | ---------|
+| --------- | -------- |
 | terraform | >= 0.13  |
 | twilio    | >= 0.1.0 |
 
@@ -14,6 +14,17 @@ This module creates an assistant and 0 or more webhooks
 | Name   | Version  |
 | ------ | -------- |
 | twilio | >= 0.1.0 |
+
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------- |
+| [twilio_autopilot_assistant](https://registry.terraform.io/providers/RJPearson94/twilio/0.1.0/docs/resources/autopilot_assistant) |
+| [twilio_autopilot_webhook](https://registry.terraform.io/providers/RJPearson94/twilio/0.1.0/docs/resources/autopilot_webhook)     |
 
 ## Inputs
 

@@ -10,7 +10,7 @@ To prevent name clashes a random 16 character string is appended to the end of t
 ## Requirements
 
 | Name       | Version  |
-| ---------- | ---------|
+| ---------- | -------- |
 | terraform  | >= 0.13  |
 | javascript | >= 0.0.1 |
 | twilio     | >= 0.2.0 |
@@ -21,6 +21,19 @@ To prevent name clashes a random 16 character string is appended to the end of t
 | ---------- | -------- |
 | javascript | >= 0.0.1 |
 | random     | n/a      |
+
+## Modules
+
+| Name                | Source | Version |
+| ------------------- | ------ | ------- |
+| appointment_booking | ../../ |         |
+
+## Resources
+
+| Name                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------- |
+| [javascript_javascript](https://registry.terraform.io/providers/apparentlymart/javascript/0.0.1/docs/data-sources/javascript) |
+| [random_string](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string)                        |
 
 ## Inputs
 
