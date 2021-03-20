@@ -3,6 +3,7 @@ TEST_DIR=test
 download: 
 	@echo "==> Download Test dependencies"
 	cd ./$(TEST_DIR); go mod vendor
+	cd ./$(TEST_DIR); go mod tidy
 
 fmt:
 	@echo "==> Format Terraform Code"
